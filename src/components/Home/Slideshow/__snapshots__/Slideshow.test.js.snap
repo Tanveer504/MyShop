@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Slideshow Component should have right Slideshow comp snapshot 1`] = `
+<section>
+  <div
+    className="slideshowSection"
+  >
+    <div
+      className="slideShowBox homePageImage"
+    >
+      <img
+        alt="deliveryimage"
+        className="homeImage"
+        height="80%"
+        src="del.jpg"
+        width="80%"
+      />
+    </div>
+    <div
+      className="slideShowBox"
+    >
+      <h1
+        className="slideshowHeading"
+      >
+        Same Day Delivery
+      </h1>
+      <p
+        className="slideshowContent"
+      >
+        Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using Content here, content here, making it look like readable English. Many desktop publishing packages and web page.
+      </p>
+      <div
+        className="browserButton"
+      >
+        <a
+          className="products"
+          href="/products"
+          onClick={[Function]}
+        >
+          <b>
+            BROWSE 1000+ PRODUCTS
+          </b>
+        </a>
+      </div>
+      <button
+        className="arrow arrowRight"
+        onClick={[Function]}
+      />
+      <button
+        className="arrow arrowLeft"
+        onClick={[Function]}
+      />
+    </div>
+  </div>
+</section>
+`;

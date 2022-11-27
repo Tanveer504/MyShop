@@ -1,0 +1,38 @@
+$pagination-a-border: 1px solid black;
+$pagination-a-padding: 1px;
+
+.center{
+    font-size: 10px;
+    display: flex;
+    margin: 1% 5% 1% 15%;
+}
+
+.pagination1{
+    a {
+        border: $pagination-a-border;
+        padding: $pagination-a-padding;
+    }
+}
+
+.pagination2 {
+    a{
+        border: $pagination-a-border;
+        padding: $pagination-a-padding;
+    }
+  }
+
+@media only screen and (min-width:600px){
+    .center{
+        /* width: 100%; */
+        font-size: 15px;
+        display: flex;
+        margin-left: 40%; /*adjust this part*/
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+    .pagination1 .pagination2{
+        width: 100%;
+        text-align: center;
+      }
+}
+

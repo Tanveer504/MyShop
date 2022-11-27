@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LatestProduct Component should have right Slideshow comp snapshot 1`] = `
+<section>
+  <section>
+    <p
+      className="latestProductsText"
+    >
+      <strong>
+        Loading Latest Products
+      </strong>
+    </p>
+    <div
+      class="loader"
+    />
+  </section>
+</section>
+`;

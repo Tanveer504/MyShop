@@ -1,0 +1,62 @@
+.forForm {
+	font-size: 10px;
+	width: 33%;
+	text-align: center;
+	.filtered {
+		font-size: 9px;
+		width: 60px;
+	}
+}
+
+.products140 {
+	margin: 10px;
+	display: flex;
+	.filterText {
+		font-size: 12px;
+		width: 27%;
+		text-align: center;
+	}
+	.products-heading-140 {
+		font-size: 11px;
+		width: 38%;
+		padding-left: 2%;
+	}
+}
+
+@media only screen and (min-width: 600px) {
+	.forForm .filtered {
+		font-size: 11px;
+		width: 80px;
+	}
+
+	.forForm {
+		font-size: 20px;
+		width: 50%;
+		text-align: -webkit-right;
+		margin-right: 8%;
+	}
+	.products140 {
+		.filterText {
+			display: none;
+		}
+		.products-heading-140 {
+			width: 50%;
+			padding-left: 3%;
+			font-size: 15px;
+		}
+		.sort {
+			width: 150px;
+		}
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	.forForm {
+		font-size: 10px;
+		padding-left: 33%;
+	}
+	.products140 .filterText {
+		font-size: 20px;
+		margin: 2% 5% 2% 5%;
+	}
+}
